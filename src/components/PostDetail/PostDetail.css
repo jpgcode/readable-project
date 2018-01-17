@@ -1,0 +1,63 @@
+.post__detail h2 {
+  margin: 0;
+}
+
+.post__metadata {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 5px 0 20px;
+  justify-content: center;
+}
+
+.post__metadata div {
+  padding: 0 10px;
+}
+
+.post__tools{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #333;
+}
+
+.post__comments {
+  border-bottom: 1px dotted #333;
+}
+
+.post__comments .add__comment{
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.post__comments .comments__wrapper {
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.post__comments .comments__wrapper li {
+  margin: 30px 0;
+}
+
+.post__commentForm h2{
+  margin: 20px 0;
+}
+
+.post__commentForm label {
+  display: block;
+}
+
+.post__commentForm form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form__author{
+  margin-bottom: 15px;
+}
+
+.form__submit{
+  display: block;
+}

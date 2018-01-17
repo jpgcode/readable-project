@@ -1,0 +1,30 @@
+.blog {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.blog__columns {
+  display: flex;
+}
+
+.blog__title {
+  margin: 30px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #333;
+}
+
+.blog__title a {
+  color: #4c497c;
+  text-decoration: none;
+}
+
+.addPost__btn{
+  width: 100px;
+  height: 50px;
+  display: block;
+  background: #9cacda;
+  border-radius: 9px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+}

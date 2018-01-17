@@ -1,0 +1,12 @@
+.blog__posts-wrapper {
+  padding: 0 50px 50px 50px;
+  text-align: left;
+}
+
+.orderBy {
+  margin-right: 5px;
+}
+
+.blog_post{
+  margin: 30px 0;
+}

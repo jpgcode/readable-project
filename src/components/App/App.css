@@ -1,0 +1,19 @@
+body {
+  color: #4c497c;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+em{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}

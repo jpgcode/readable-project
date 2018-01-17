@@ -1,0 +1,25 @@
+.blog__categories {
+  padding: 20px;
+  background: #9cacda;
+}
+
+.blog__categories h2 {
+  margin: 0;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #4d4a7c;
+}
+
+.blog__categories ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.blog__categories ul li{
+  margin-bottom: 12px;
+}
+
+.blog__categories ul li a{
+  color: #4d4a7c;
+}

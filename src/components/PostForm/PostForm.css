@@ -1,0 +1,24 @@
+.postForm{
+
+}
+
+.postForm label{
+  display: block;
+}
+
+
+.postForm input{
+  margin-bottom: 25px;
+  width: 205px;
+  padding: 15px;
+}
+
+.postForm textarea{
+  margin-bottom: 25px;
+}
+
+.postForm form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
