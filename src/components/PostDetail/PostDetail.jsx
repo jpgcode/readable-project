@@ -4,6 +4,7 @@ import Moment from 'react-moment'
 
 import { connect } from 'react-redux'
 import { deletePost, votePost, addComment, editComment, deleteComment, voteComment } from '../../actions'
+import { Link } from 'react-router-dom'
 
 import Header from '../Header/Header'
 import './PostDetail.css'
@@ -103,7 +104,7 @@ class PostDetail extends Component {
             <div className="post__body">{currentPost.body}</div>
 
             <div className="post__tools">
-              <button className="btn">Edit</button>
+              <Link to={`/posts/edit/${currentPost.id}`}><button className="btn">Edit</button></Link>
               <button className="btn" onClick={() => {
                   this.props.onDeletePost(currentPost.id)
                   this.props.history.push('/')
